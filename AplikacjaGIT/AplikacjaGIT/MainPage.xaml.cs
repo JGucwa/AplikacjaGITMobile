@@ -16,12 +16,12 @@ namespace AplikacjaGIT
             InitializeComponent();
         }
 
-        private void IncreaseLikes_Btn(object s, EventArgs e)
+        private void IncreaseLikes(object s, EventArgs e)
         {
             Likes++;
             Liketext.Text = Likes.ToString();
         }
-        private void DecreaseLikes_Btn(object s, EventArgs e)
+        private void DecreaseLikes(object s, EventArgs e)
         {
             if(Likes > 1) Likes--;
 
