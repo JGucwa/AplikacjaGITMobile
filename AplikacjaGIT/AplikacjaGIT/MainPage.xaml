@@ -7,8 +7,8 @@
         <Label Text="Mountains" HorizontalOptions="Center" Margin="0,30,0,50" FontSize="Large"/>
         <Image Source="https://www.tapeciarnia.pl/tapety/normalne/tapeta-widok-z-okwieconej-laki-na-szczyty-gor.jpg" Aspect="AspectFill"/>
         <StackLayout Orientation="Horizontal" Margin="0,40,0,0">
-            <Button x:Name="buttonLike" Text="+" WidthRequest="190"/>
-            <Button x:Name="ButtonDisLike"  Text="-" WidthRequest="190"/>
+            <Button x:Name="buttonLike" Text="+" WidthRequest="190" Clicked="buttonLike_Clicked"    />
+            <Button x:Name="ButtonDisLike"  Text="-" WidthRequest="190" Clicked="ButtonDisLike_Clicked"/>
         </StackLayout>
         <Label x:Name="Liketext" Text="0 Likes" HorizontalOptions="EndAndExpand" FontSize="16"/>
         <BoxView BackgroundColor="Red" HeightRequest="1"/>
