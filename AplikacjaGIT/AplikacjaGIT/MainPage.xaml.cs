@@ -14,5 +14,15 @@ namespace AplikacjaGIT
         {
             InitializeComponent();
         }
+
+        private void buttonLike_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonDisLike_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
